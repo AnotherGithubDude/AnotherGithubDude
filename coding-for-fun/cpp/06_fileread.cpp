@@ -9,6 +9,7 @@ using std::ios;
 using std::string;
 // author: AnotherGithubDude, 2022
 int main(){
+  //  cout << string(3, '\a'); //char: \007 (beep)
     fstream myFile;
     myFile.open("dave.txt",ios::in); //ios::in = read
     if(myFile.is_open()){
