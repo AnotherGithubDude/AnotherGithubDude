@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
-
+using std::cout;
+// author: AnotherGithubDude, 2022
 int main(){
     cout << "\n\nHello, World.\n\n";
     return 0;
