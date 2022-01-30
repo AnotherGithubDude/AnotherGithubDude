@@ -9,11 +9,11 @@ using std::ios;
 // author: AnotherGithubDude, 2022
 int main(){
     fstream myFile;
-    myFile.open("dave.txt",ios::out); //ios::out = (over)write
+    myFile.open("dave.txt",ios::app); //ios::app = append
     if(myFile.is_open()){
-        myFile << "first line\n";
-        myFile << "second line\n";
-        myFile << "third line" << endl;
+        myFile << "fourth line\n";
+        myFile << "fifth line\n";
+        myFile << "sixth line" << endl;
         myFile.close();
         return 0; 
     }
