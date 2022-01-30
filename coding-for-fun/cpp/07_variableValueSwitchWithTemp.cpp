@@ -9,9 +9,9 @@ int main(){
     cout << "valueOne original:" << valueOne << endl;
     cout << "valueTwo original:" << valueTwo << endl;
 
-    int temp = valueOne + valueTwo; // 15 + 8 = 23
+    int temp = valueOne + valueTwo; // 15 + 8  = 23
     valueOne = temp - valueOne;     // 23 - 15 = 8
-    valueTwo = temp - valueTwo;     // 23 - 8 = 15
+    valueTwo = temp - valueTwo;     // 23 - 8  = 15
 
     cout << "temp:" << temp << endl;
     cout << "valueOne after manipulation:" << valueOne << endl;
