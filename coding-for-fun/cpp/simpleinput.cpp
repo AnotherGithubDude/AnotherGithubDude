@@ -9,6 +9,6 @@ int main(){
     string username;
     cout << "\nWhat's your name?" << endl;
     getline(cin,username);
-    cout << "\nHave a nice day," << username << endl;
+    cout << "\nHave a nice day," << username <<"." << endl;
     return 0;
 }
