@@ -3,8 +3,7 @@ using std::cout;
 using std::endl;
 // author: AnotherGithubDude, 2022
 int main(){
-    int valueOne = 15;
-    int valueTwo = 8;
+    int valueOne = 15, valueTwo = 8;
 
     cout << "valueOne original:" << valueOne << endl;
     cout << "valueTwo original:" << valueTwo << endl;
