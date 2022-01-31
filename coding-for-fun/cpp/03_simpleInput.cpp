@@ -4,7 +4,7 @@ using std::cout;
 using std::endl;
 using std::getline;
 using std::string;
-// author: AnotherGithubDude, 2022
+// author: https://github.com/AnotherGithubDude, 2022
 int main(){
     string username;
     cout << "\nWhat's your name?" << endl;

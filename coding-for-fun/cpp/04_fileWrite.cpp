@@ -5,7 +5,7 @@ using std::cout;
 using std::endl;
 using std::fstream;
 using std::ios;
-// author: AnotherGithubDude, 2022
+// author: https://github.com/AnotherGithubDude, 2022
 int main(){
     fstream myFile;
     myFile.open("dave.txt",ios::out); //ios::out = (over)write
