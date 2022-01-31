@@ -15,7 +15,6 @@ public:
 int getUserProfile() {
     userProfile userProfile;            // access the class
     userProfile.userName = "ZeroCool";  // hardcoded fake data
-
     userProfile.userRealName = "Dave";
     userProfile.userId = 007; 
 
