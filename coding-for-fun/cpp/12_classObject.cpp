@@ -42,6 +42,7 @@ int main(){
     string userInput;
     cout << "Please enter the secret sauce:\t";
     getline(cin,userInput);
+   
     if(userInput == "hackers"){
         string userName;
         string userRealName;
