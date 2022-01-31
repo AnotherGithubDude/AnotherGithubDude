@@ -1,7 +1,7 @@
 #include <iostream>
 using std::cout;
 using std::endl;
-// author: AnotherGithubDude, 2022
+// author: https://github.com/AnotherGithubDude, 2022
 int main(){
     int valueOne = 15, valueTwo = 8, temp;
     cout << "valueOne original:" << valueOne << endl;

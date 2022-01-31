@@ -6,7 +6,7 @@ using std::endl;
 using std::fstream;
 using std::ios;
 using std::string;
-// author: AnotherGithubDude, 2022
+// author: https://github.com/AnotherGithubDude, 2022
 int main(){
    fstream myFile;
     myFile.open("dave.txt",ios::in); //ios::in = read
