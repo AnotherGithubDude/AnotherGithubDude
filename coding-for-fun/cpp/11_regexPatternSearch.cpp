@@ -17,10 +17,10 @@ int checkRegex(string userInput){
     regex  regexRule(regexPattern);
     bool   isValidRegex = regex_search(userInput, regexRule); // will be treated as "contains" at least one letter
     if(isValidRegex){
-        cout << "The regex has matched." << endl;
+        cout << "The regex has matched."     << endl;
         cout << hardcodedString << userInput << endl;
     } else {
-        cout << "Please try again." << endl;
+        cout << "Please try again."          << endl;
     } 
     return 0;
 }
