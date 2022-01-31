@@ -1,5 +1,5 @@
 all:
-      g++ -std=c++17 helloworld.cpp -o hello
+      g++ -std=c++17 01_helloWorld.cpp -o helloWorld
 
 clean:
-      $(RM) hello
+      $(RM) helloWorld
