@@ -6,9 +6,9 @@ using std::getline;
 using std::string;
 // author: https://github.com/AnotherGithubDude, 2022
 int main(){
-    string username;
+    string userName;
     cout << "\nWhat's your name?" << endl;
-    getline(cin,username);
-    cout << "\nHave a nice day," << username <<"." << endl;
+    getline(cin,userName);
+    cout << "\nHave a nice day," << userName <<"." << endl;
     return 0;
 }
