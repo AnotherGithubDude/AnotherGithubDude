@@ -18,9 +18,9 @@ int getUserProfile() {
     userProfile.userRealName   = "Dave";
     userProfile.userId = 007; 
 
-    cout << "\nuserName: "     << userProfile.userName << endl;
+    cout << "\nuserName: "     << userProfile.userName     << endl;
     cout << "\nuserRealName: " << userProfile.userRealName << endl;
-    cout << "\nuserId: "       << userProfile.userId << endl;
+    cout << "\nuserId: "       << userProfile.userId       << endl;
 
     return 0; 
 }
