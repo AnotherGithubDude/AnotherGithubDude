@@ -31,9 +31,9 @@ int setUserProfile(string userName, string userRealName) {
     userProfile.userRealName   = userRealName;
     userProfile.userId         = 2342; 
 
-    cout << "\nuserName: "     << userProfile.userName << endl;
+    cout << "\nuserName: "     << userProfile.userName     << endl;
     cout << "\nuserRealName: " << userProfile.userRealName << endl;
-    cout << "\nuserId: "       << userProfile.userId << endl;
+    cout << "\nuserId: "       << userProfile.userId       << endl;
    
     return 0; 
 }
