@@ -62,7 +62,7 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
      
-    - working-directory: ${{github.workspace}}/coding-for-fun/cpp
+    #- working-directory: ${{github.workspace}}/coding-for-fun/cpp
     #- run: |
     #    g++ -std=c++2a -o 13_vectorContainer ${{github.workspace}}/13_vectorContainer.cpp
     #   make bootstrap
