@@ -65,7 +65,7 @@ jobs:
      
     #- working-directory: ${{github.workspace}}/coding-for-fun/cpp
     - run: |
-         g++ -std=c++2a -o 13_vectorContainer ${{github.workspace}}/13_vectorContainer.cpp
+         g++ -std=c++2a -o ${{github.workspace}}/coding-for-fun/cpp/13_vectorContainer ${{github.workspace}}/coding-for-fun/cpp/13_vectorContainer.cpp
          make bootstrap
          make release
 
