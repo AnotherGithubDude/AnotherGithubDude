@@ -1,0 +1,3 @@
+/Users/david.vieira-kurz/Desktop/GitHub/AnotherGithubDude/coding-for-fun/cpp/build/CMakeFiles/01_helloWorld.dir
+/Users/david.vieira-kurz/Desktop/GitHub/AnotherGithubDude/coding-for-fun/cpp/build/CMakeFiles/edit_cache.dir
+/Users/david.vieira-kurz/Desktop/GitHub/AnotherGithubDude/coding-for-fun/cpp/build/CMakeFiles/rebuild_cache.dir
