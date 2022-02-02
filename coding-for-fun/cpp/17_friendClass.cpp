@@ -10,7 +10,10 @@ private:
  
 public:
     Coffee() { howManyCoffeeAvailable = 23; }
-    friend class DrinksInStock; // friend class will be able to access private
+    // friend class will be able to access private members of this class
+    // but it's only one way. 
+    // This class is not allowed to access the friend's private member
+    friend class DrinksInStock; 
 };
  
 class DrinksInStock {
