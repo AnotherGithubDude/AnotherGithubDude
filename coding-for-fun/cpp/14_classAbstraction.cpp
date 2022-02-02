@@ -26,7 +26,7 @@ public:
         cout << "Your cold EnergyDrink will be served in a moment." << endl;
     }
     void getHotDrink(){
-        cout << "You've chosen a Tea as Energy drink. It will be served in a moment." << endl;
+        cout << "Your Tea (Energy drink) will be served in a moment." << endl;
     }
 };
 

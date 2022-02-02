@@ -20,8 +20,8 @@ int getCredentialsFromUser(){
     cin  >> userName;
     cout << "Please enter your secret:\t";
     cin  >> userSecret;
-    int checkStatus = checkUserCredentials(userName, userSecret);  // if the return value is true, login has been successful
-    if (checkStatus == true){
+    bool isLoggedIn = checkUserCredentials(userName, userSecret);  
+    if (isLoggedIn == true){
         cout << "Welcome back, " << userName << endl;
     } else {
         cout << "Have a nice day. Bye." << endl;

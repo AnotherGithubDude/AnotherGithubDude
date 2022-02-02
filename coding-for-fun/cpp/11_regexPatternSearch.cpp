@@ -10,12 +10,13 @@ using std::regex;
 using std::string;
 // author: https://github.com/AnotherGithubDude, 2022
 int checkRegex(string userInput){
-    string hardcodedString = "Some text which is treated as "
-                            "a placefolder and has been concatinated with following userInput: ";
+    string hardcodedString = "Some text which is treated as a placeholder."
+                            "userInput: ";
 
     string regexPattern = "([a-z])";
     regex  regexRule(regexPattern);
-    bool   isValidRegex = regex_search(userInput, regexRule); // will be treated as "contains" at least one letter
+    // the regexPattern will be treated as: "contains at least one letter"
+    bool   isValidRegex = regex_search(userInput, regexRule); 
     if(isValidRegex){
         cout << "The regex has matched."     << endl;
         cout << hardcodedString << userInput << endl;

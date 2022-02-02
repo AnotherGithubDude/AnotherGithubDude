@@ -9,10 +9,10 @@ using std::string;
 // $ g++ -std=c++20 -o 13_vectorContainer 13_vectorContainer.cpp
  int main()
 {
-    std::vector<std::string> WebVulnerabilities {"CSRF", "LFI", "LFE", "RFI", "SQLI", "XXE", "XSS"};
-    WebVulnerabilities.push_back("RCE");
-    for (int currentElement = 0; currentElement < WebVulnerabilities.size(); currentElement++){
-             std::cout << WebVulnerabilities[currentElement] << endl;
-        }
-    return 0;
+ std::vector<std::string> WebVuln {"CSRF", "LFI", "LFE", "XXE", "XSS"};
+ WebVuln.push_back("RCE");
+ for (int currentElement = 0;currentElement < WebVuln.size(); currentElement++){
+          std::cout << WebVuln currentElement] << endl;
+ }
+return 0;
 }
