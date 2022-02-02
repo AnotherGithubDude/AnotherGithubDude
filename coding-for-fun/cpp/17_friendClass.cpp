@@ -18,9 +18,9 @@ private:
     int howManyDrinksAvailable;
  
 public:
-    void showCoffee(Coffee& x)
+    void showCoffee(Coffee& coffeeInStock)
     {
-      cout <<x.howManyCoffeeAvailable<<" coffees are left." << endl;
+      cout <<coffeeInStock.howManyCoffeeAvailable<<" coffees are left." << endl;
     }
 };
 
