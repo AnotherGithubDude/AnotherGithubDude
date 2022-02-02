@@ -6,10 +6,10 @@ using std::string;
 // $ g++ -std=c++20 -o 17_friendClass 17_friendClass.cpp
 class Coffee {
 private:
-    int howManyCoffeeAvailable;
+    int availableCoffee;
  
 public:
-    Coffee() { howManyCoffeeAvailable = 23; }
+    Coffee() { availableCoffee = 23; }
     // friend class will be able to access private members of this class
     // but it's only one way. 
     // This class is not allowed to access the friend's private member
@@ -18,19 +18,19 @@ public:
  
 class DrinksInStock {
 private:
-    int howManyDrinksAvailable;
+    int availableDrinks;
  
 public:
-    void showCoffee(Coffee& coffeeInStock)
+    void coffeeInventory(Coffee& coffeeInStock)
     {
-      cout <<coffeeInStock.howManyCoffeeAvailable<<" coffees are left." << endl;
+      cout <<coffeeInStock.availableCoffee<<" coffees are left." << endl;
     }
 };
 
 int main()
 {
-    Coffee howManyCoffeeAvailable;
-    DrinksInStock howManyDrinksAvailable;
-    howManyDrinksAvailable.showCoffee(howManyCoffeeAvailable);
+    Coffee availableCoffee;
+    DrinksInStock availableDrinks;
+    availableDrinks.coffeeInventory(availableCoffee);
     return 0;
 }
