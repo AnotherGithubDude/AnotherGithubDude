@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono>
 // author: https://github.com/AnotherGithubDude, 2022
-// $ g++ -std=c++20 -o 20_chronoTimeDuration 20_chronoTimeDuration.cpp 
+// $ g++ -std=c++20 -o 20_chronoDurationTime 20_chronoDurationTime.cpp
 long basicCalculation(long valueOne, long valueTwo)
 {
     return(valueOne*valueTwo);
