@@ -1,5 +1,5 @@
 #include <iostream>
-// author: https://github.com/AnotherGithubDude, 2022
+// license: cc0, author: https://github.com/AnotherGithubDude, 2022
 // $ g++ -std=c++20 -o 21_pointer 21_pointer.cpp 
 int alphabetOnly(std::string userInput){
     std::string resultAlphabetOnly;
@@ -11,7 +11,7 @@ int alphabetOnly(std::string userInput){
             resultAlphabetOnly += userInput[currentLetter];
         }
     }
-    std::cout << "Alphabet only output:\t" << resultAlphabetOnly << std::endl;
+    std::cout << "Alphabet only:\t" << resultAlphabetOnly << std::endl;
     return 0;
 }
 
