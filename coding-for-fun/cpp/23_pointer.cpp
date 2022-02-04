@@ -1,5 +1,5 @@
 #include <iostream>
-// author: https://github.com/AnotherGithubDude, 2022
+// license: cc0, author: https://github.com/AnotherGithubDude, 2022
 // $ g++ -std=c++20 -o 23_pointer 23_pointer.cpp 
 int main(){
     int valueOne = 23;
