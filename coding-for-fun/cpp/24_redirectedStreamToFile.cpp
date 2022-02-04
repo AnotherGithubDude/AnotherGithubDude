@@ -8,7 +8,7 @@ int main()
 	std::fstream MyFile;
 	MyFile.open("redirectedStream.txt", std::ios::out);
     std::streambuf* bufferOut    = std::cout.rdbuf();
-	std::streambuf* bufferMyFile = MyFile.rdbuf();
+    std::streambuf* bufferMyFile = MyFile.rdbuf();
 	std::cout.rdbuf(bufferMyFile);
 	std::cout << "This line written to MyFile" << std::endl;
 	std::cout.rdbuf(bufferOut);
