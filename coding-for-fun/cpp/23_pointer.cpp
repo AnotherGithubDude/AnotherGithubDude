@@ -1,9 +1,9 @@
 #include <iostream>
 // author: https://github.com/AnotherGithubDude, 2022
-// $ g++ -std=c++20 -o 21_pointer 21_pointer.cpp 
+// $ g++ -std=c++20 -o 23_pointer 23_pointer.cpp 
 int main(){
     int valueOne = 23;
-    std::cout << "\n&valueOne:\t" << &valueOne << std::endl; 
+    std::cout << "\n&valueOne:\t"  << &valueOne    << std::endl; 
     
     // Reference to memory location
     int* ptrValueOne = &valueOne;       
