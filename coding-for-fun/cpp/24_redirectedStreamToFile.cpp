@@ -15,6 +15,5 @@ int main()
 	std::cout << "This line is written to screen" << std::endl;
     
     MyFile.close();
-	
     return 0;
 }
