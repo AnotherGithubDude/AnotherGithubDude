@@ -13,6 +13,8 @@ int main()
 	std::cout << "This line written to MyFile" << std::endl;
 	std::cout.rdbuf(bufferOut);
 	std::cout << "This line is written to screen" << std::endl;
+    
     MyFile.close();
-	return 0;
+	
+    return 0;
 }
