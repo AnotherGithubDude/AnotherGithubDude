@@ -8,8 +8,10 @@ int main()
     MyStack.push(23.42);
     MyStack.push(42.23);
     MyStack.push(77.44);
+    MyStack.push(88*88);
     while (!MyStack.empty()) {
-        std::cout << MyStack.top() << std::endl; 
+        std::cout << MyStack.size() << std::endl;
+        std::cout << MyStack.top()  << std::endl; 
         MyStack.pop();
     }
 	return 0;
