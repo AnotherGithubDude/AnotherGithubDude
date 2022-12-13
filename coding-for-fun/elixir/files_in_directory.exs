@@ -1,6 +1,6 @@
 #author: https://github.com/AnotherGithubDude, 2022
 # licence: cc0
-# tested with elixir 14.x.x on Mac
+# tested with Elixir 1.14.2 (compiled with Erlang/OTP 25)
 IO.puts("\nFiles: \n==========")
 files = File.ls!("./")
 |> Stream.filter(&Path.extname(&1) == ".exs")

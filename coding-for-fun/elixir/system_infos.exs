@@ -4,4 +4,8 @@
 
 # Print with colored background
   IO.puts(IO.ANSI.format([:white_background, "The PID for the current Erlang runtime system instance: #{System.pid()}"]))
-  IO.puts(IO.ANSI.format([:white_background, "\nThe current UTC time is: #{DateTime.utc_now()}"]))
+  IO.puts(System.system_time())
+  IO.puts(System.user_home())
+  IO.puts(File.exists?("/dev/null"))
+  IO.puts(System.get_env())
+  
