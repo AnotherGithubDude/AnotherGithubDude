@@ -4,7 +4,7 @@
        CONFIGURATION SECTION. 
        DATA DIVISION. 
        PROCEDURE DIVISION. 
-           DISPLAY "Hello World!". 
+           DISPLAY "Hello World.". 
            DISPLAY "Author: https://github.com/AnotherGithubDude, 2022".
            DISPLAY "Compiled with cobc (GnuCOBOL) 3.1.2.0 on Mac:".
            DISPLAY "$ cobc -x hello_world.cbl" 
