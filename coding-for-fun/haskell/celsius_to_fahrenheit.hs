@@ -10,5 +10,5 @@ main = do
     case maybeCelsius of 
         Just celsius -> do 
             let fahrenheit = (celsius * (9/5)) + 32
-            putStrLn ("Your temperature in Fahrenheit is: " ++ show fahrenheit) 
+            putStrLn ("The temperature in Fahrenheit: " ++ show fahrenheit) 
         Nothing -> putStrLn "Invalid temperature"
