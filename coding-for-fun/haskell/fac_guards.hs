@@ -5,7 +5,7 @@ fac :: Int -> Int
 fac n 
     | n == 0            = 1
     | n > 0 && n < 10   = n * fac (n-1)
-    | otherwise         = error "factorial is only defined for positive numbers less than 10"
+    | otherwise         = error "Only defined for pos. numbers less than 10"
 
 main :: IO ()
 main = do 
@@ -15,4 +15,4 @@ main = do
     if (result) > 0 then 
         putStrLn ("The factorial of the given number is: " ++ show result)
     else
-        putStrLn "factorial is only defined for positive numbers less than 10"
+        putStrLn "factorial is only defined for pos. numbers less than 10"
