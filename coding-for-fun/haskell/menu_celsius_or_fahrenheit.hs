@@ -10,7 +10,7 @@ convertFahrenheitToCelsius :: Double -> Double
 convertFahrenheitToCelsius fahrenheit = (fahrenheit - 32) / (9/5)
 
 main = do 
-    putStrLn "Select a conversion: (1) Celsius to Fahrenheit, (2) Fahrenheit to Celsius"
+    putStrLn "Select: (1) Celsius to Fahrenheit, (2) Fahrenheit to Celsius"
     selectionString <- getLine
     let maybeSelection = readMaybe selectionString :: Maybe Int
     case maybeSelection of 
