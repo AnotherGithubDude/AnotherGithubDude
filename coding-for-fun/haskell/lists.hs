@@ -8,6 +8,6 @@ main = do
      let listReversed = reverse myList -- [20, 15, 10, 5]
      let lengthOfList = length myList
      if (lengthOfList) > 0 then 
-        putStrLn (show firstItem)
+        putStrLn ("firstItem: " ++ show firstItem ++"\nlengthOfList: "++ show lengthOfList)
      else
         putStrLn "error"
