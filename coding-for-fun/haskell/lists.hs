@@ -11,6 +11,6 @@ main = do
          listReversed = reverse myList
          lengthOfList = length myList
      if (lengthOfList) > 0 then 
-        putStrLn ("firstItem: " ++ show firstItem ++"\nlengthOfList: "++ show lengthOfList)
+        putStrLn ("fItem:" ++ show firstItem ++"\nlength:"++ show lengthOfList)
      else
         putStrLn "error"
