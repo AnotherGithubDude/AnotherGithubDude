@@ -1,5 +1,5 @@
 -- author: https://github.com/AnotherGithubDude, 2023
--- compiled:$ ghc --make password_generator_commented.hs
+-- compiled:$ ghc --make password_generator.hs
 
 -- Import the System.Random and System.Environment modules
 -- for generating random numbers and reading command-line arguments
@@ -29,7 +29,7 @@ main = do
   -- Check if the list is empty
   if null args
     -- If the list is empty, print the usage message and exit
-    then putStrLn "Usage: password-generator.hs LENGTH"
+    then putStrLn "Usage: ./password_generator.hs 24 (or any other length)"
     -- If the list is not empty, extract the first argument (length of the pass)
     -- and convert it to an Int
     else do
